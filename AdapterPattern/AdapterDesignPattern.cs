@@ -21,7 +21,7 @@ namespace CSAnim.DesignPatterns
         }
     }
 
-    class AdapterTest
+    class AdapterExample
     {
         public void Run()
         {

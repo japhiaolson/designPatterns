@@ -7,7 +7,7 @@ namespace CSAnim.DesignPatterns
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            AdapterTest adapterSample = new AdapterTest();
+            AdapterExample adapterSample = new AdapterExample();
             adapterSample.Run();
         }
     }
