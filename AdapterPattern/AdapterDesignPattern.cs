@@ -10,17 +10,16 @@ namespace CSAnim.DesignPatterns
         }
     }
 
-    // Adapter that can adapt our square to the iCircle interface
+    // Adapter which adapts our square to the iCircle interface
     class SquareAdapter : iCircle
     {
-        protected Square _square;
+        Square _square;
+        int iCircle.Radius => _square.Width / 2;
         public SquareAdapter(Square square)
         {
             _square = square;
         }
-        int iCircle.Radius => _square.Width / 2;
     }
-
 
     class AdapterTest
     {
